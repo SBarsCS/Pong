@@ -1,0 +1,29 @@
+#canvas{
+    margin: auto;
+    display: block;
+    background-color: darkgrey;
+    border: 2px black solid;
+    margin-top: 50px;
+}
+
+#player_div{
+    width: 304px;
+    display: block;
+    margin: 0 auto;
+}
+
+#one_player, #two_player, #dif_2, #dif_1, #dif_3{
+    height: 80px;
+    width: 150px;
+}
+
+#difficulty_level_div{
+    width: 458px;
+    display: block;
+    margin: 0 auto;
+    margin-top:20px;
+}
+
+#whole, html{
+    background-color: black;
+}

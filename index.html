@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pong game</title>
+    <link rel="stylesheet" type="text/css" href="Style/style.css" />
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+</head>
+<body>
+<div id="whole">
+<div id="player_div" aria-orientation="horizontal">
+    <button id="one_player">1 player</button>
+    <button id="two_player">2 player</button>
+</div>
+
+<div id="difficulty_level_div" aria-orientation="horizontal">
+    <button id="dif_1">Beginner</button>
+    <button id="dif_2">Intermediate</button>
+    <button id="dif_3">Insane</button>
+</div>
+<canvas id="canvas" height="700" width="1400"></canvas>
+<audio id="point" src="audio/sfx_point.wav"></audio>
+<audio id="die" src="audio/sfx_die.wav"></audio>
+<script src="JS/script.js"></script>
+</div>
+</body>
+</html>
